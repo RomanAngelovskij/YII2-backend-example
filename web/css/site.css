@@ -1,0 +1,34 @@
+.inactive-bullet {
+    background: url('/img/off_status.png') no-repeat 3px 6px;
+}
+
+.active-bullet {
+    background: url('/img/on_status.png') no-repeat 3px 6px;
+}
+
+.editable-input{
+    background-color: inherit;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 5px 3px;
+}
+
+.editable-input:hover{
+    border: 1px #999 solid;
+    padding: 4px 2px;
+}
+
+.editable-input.error{
+    border: 1px solid #a94442;
+    padding: 4px 2px;
+}
+
+
+.dns-record-disable-edit{
+    /*background-color: #ce8483 !important;*/
+}
+
+.page-title .icon-arrow-left52{
+    display: none;
+}

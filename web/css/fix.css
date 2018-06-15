@@ -1,0 +1,8 @@
+.draggable-cell {
+    background-image: url(/images/icon-drag.svg);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    cursor: move;
+    font-size: 0px;
+}

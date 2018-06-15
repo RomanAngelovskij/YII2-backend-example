@@ -1,0 +1,23 @@
+.invoice-item input.count{
+    width: 100%;
+    border: 1px solid #fff;
+    text-align: right;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.invoice-item input.price{
+    width: 80%;
+    border: 1px solid #fff;
+    text-align: right;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.invoice-item input.count:focus, .invoice-item input.price:focus{
+    border: 1px solid #999999;
+}
